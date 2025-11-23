@@ -1,0 +1,11 @@
+Linux Only (Production):
+gunicorn -w 4 -k uvicorn.workers.UvicornWorker main:app --bind 0.0.0.0:8000
+
+Windows / Linux:
+uvicorn main:app --reload --port=8000 --host=0.0.0.0
+
+Docker Build Dev
+docker compose -f docker-compose.dev.yaml up --build
+
+Docker Build Prod
+docker compose -f docker-compose.prod.yaml up --build

@@ -1,0 +1,7 @@
+fastapi
+gunicorn
+uvicorn
+bleach
+pydantic
+pydantic-settings
+pydantic[email]

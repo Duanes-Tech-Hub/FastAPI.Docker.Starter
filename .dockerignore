@@ -1,0 +1,24 @@
+# Configuration and development files
+.git
+.gitignore
+.github
+*.env
+*.env.*
+env.*
+.vscode/
+docker-compose.yml 
+
+# Python specific exclusions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+htmlcov/  # Coverage reports
+
+#Specific files
+gunicorn.cmd.txt
+docker-compose.dev.yaml
+docker-compose.prod.yaml
