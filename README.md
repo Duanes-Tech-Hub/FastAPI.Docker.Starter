@@ -6,13 +6,14 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![REST API](https://img.shields.io/badge/API-RESTful-orange.svg)](https://restfulapi.net/)
 
-> A production-ready FastAPI application for managing blog posts and authors with advanced security features, Docker containerization, and comprehensive data validation.
+> Whether you are building AI Agents or SPA websites, APIs are useful for getting data or acting as a channel to communicate with your AI Agent. I have not seen many examples showing header and data sanitization. Even though there are many agentic coding systems that 
+can be used, I wanted a starter FASTAPI implementation that addressed the following topics:
 
-## 📺 Demo & Overview
-
-*Watch the complete setup and deployment process*
-
-[![FastAPI Blog System Demo](https://img.shields.io/badge/📺-Watch_Demo-red?style=for-the-badge&logo=youtube)](https://youtube.com/watch?v=YOUR_VIDEO_ID_HERE)
+- Sanitizing headers and data
+- Handling validation erors gracefully
+- Deploying the application with a container
+- Reading environment variables
+- Separation of domains via routers
 
 ## 📋 Table of Contents
 
