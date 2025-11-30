@@ -11,7 +11,7 @@ can be used, I wanted a starter FASTAPI implementation that addressed the follow
 
 - Sanitizing headers and data
 - Handling validation erors gracefully
-- Deploying the application with a container
+- Deploying the application within a container
 - Reading environment variables
 - Separation of domains via routers
 
