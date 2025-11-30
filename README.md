@@ -1,4 +1,4 @@
-# 🚀 FastAPI Blog Management System
+# 🚀 FastAPI & Docker Starter Project
 
 [![Python 3.13](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/downloads/release/python-3130/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115.0-green.svg)](https://fastapi.tiangolo.com/)
@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![REST API](https://img.shields.io/badge/API-RESTful-orange.svg)](https://restfulapi.net/)
 
-> Whether you are building AI Agents or SPA websites, APIs are useful for getting data or acting as a channel to communicate with your AI Agent. I have not seen many examples showing header and data sanitization. Even though there are many agentic coding systems that 
+Whether you are building AI Agents or SPA websites, APIs are useful for getting data or acting as a channel to communicate with your AI Agent. I have not seen many examples showing header and data sanitization. Even though there are many agentic coding systems that 
 can be used, I wanted a starter FASTAPI implementation that addressed the following topics:
 
 - Sanitizing headers and data
@@ -14,6 +14,8 @@ can be used, I wanted a starter FASTAPI implementation that addressed the follow
 - Deploying the application within a container
 - Reading environment variables
 - Separation of domains via routers
+
+I will remove the welcome and docs endpoints for production deployment.
 
 ## 📋 Table of Contents
 
@@ -31,7 +33,7 @@ can be used, I wanted a starter FASTAPI implementation that addressed the follow
 
 ## 💡 About The Project
 
-This project demonstrates **enterprise-level backend development** with FastAPI, showcasing:
+This project demonstrates APIs with FastAPI and the use of Docker for container builds.
 
 **🎯 Problem Solved:** Modern web applications require robust APIs with proper security measures, data validation, and scalable architecture. This system provides a complete solution for blog and author management with production-ready features.
 
